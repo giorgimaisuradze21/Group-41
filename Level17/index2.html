@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3) შექმენით მთლიანი ფორმა რომელსაც ექნება სახელის, მეილის, ასაკის და პაროლის input. ასევე ბოლოში დაუმატეთ drop down menu რომლითაც მომხმარებელი აირჩევს რისთვის უნდა account'ი (Bussines or personal, ანუ პირადი ექაუნთის შექმნა უნდა თუ ბიზნეს ექაუნთის). -->
+<form>
+    <input type="text" Name="Name" placeholder="Name" required> <br> <br>
+    <input type="text" Name="Email"placeholder="Email" required> <br> <br> 
+    <input type="text" Name="Age"  placeholder="Age"   required> <br> <br>
+    <input type="password" Name="Password" placeholder="Password" required> <br> <br>
+    <input type="radio" id="Bussines">
+    <label for="Bussines">Bussines</label>
+    <input type="radio" id="Personal">
+    <label for="Personal">Personal</label>
+    <br>
+    
+    <select name="Bussines or Personal">
+        <option Value="Bussiness">Bussiness</option>
+        <option Value="Personal">Personal</option>
+    </select>
+    <button>Sign up</button> 
+</form>
+
+</body>
+</html>
