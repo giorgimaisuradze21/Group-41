@@ -1,0 +1,25 @@
+.p1{
+    display: inline;
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+}
+
+
+.p2{
+    display: block;
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+}
+
+
+.p3{
+    display: inline-block;
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+}
